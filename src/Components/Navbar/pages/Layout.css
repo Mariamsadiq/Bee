@@ -1,0 +1,34 @@
+/* Navbar Styles */
+nav {
+    background-color: #fff; /* Background color */
+    padding: 10px 0; /* Padding around the navbar items */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the navbar */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    display: flex; /* Display list items horizontally */
+    justify-content: space-around; /* Evenly distribute list items horizontally */
+    align-items: center; /* Vertically center list items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Navbar Links Styles */
+  li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link text color */
+    font-weight: bold; /* Link text font weight */
+    font-size: 16px; /* Link text font size */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  li a:hover {
+    color: #ff4500; /* Change link text color on hover */
+  }
+  
